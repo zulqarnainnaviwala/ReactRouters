@@ -15,6 +15,7 @@ const MainNavigator = createStackNavigator({
 
   Page2:
    {screen: Page2},
+   
 
    Page3: 
    {screen: Page3},
