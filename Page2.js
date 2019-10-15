@@ -11,6 +11,14 @@ export default class Page2 extends React.Component {
           onPress={() =>
             this.props.navigation.navigate('Page')
           }
+
+        />
+        <Button
+          title="page 1 link"
+          onPress={() =>
+            this.props.navigation.navigate('Page1')
+          }
+          
         />
       </View>
     );

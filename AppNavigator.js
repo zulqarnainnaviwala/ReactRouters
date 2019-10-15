@@ -1,4 +1,4 @@
-import {createStackNavigator, createAppContainer} from 'react-navigation';
+import {createStackNavigator, createAppContainer, NavigationActions} from 'react-navigation';
 
 import Page from "./Page"
 import Page1 from "./Page1"
@@ -8,7 +8,10 @@ import Page3 from "./Page3"
 const MainNavigator = createStackNavigator({
 
   Page: 
-  {screen: Page},
+  {screen: Page,
+  navigationOptions : {header : null},
+  },
+  
   
   Page1: 
   {screen: Page1},
@@ -19,8 +22,19 @@ const MainNavigator = createStackNavigator({
 
    Page3: 
    {screen: Page3},
- 
-});
+
+},
+
+{
+    headerMode: "none",
+    // navigationOptions: {
+    //   // headerVisible: false,
+    //   header: null
+
+    // }
+  }
+
+);
 
 const App = createAppContainer(MainNavigator);
 

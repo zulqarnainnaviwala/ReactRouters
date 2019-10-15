@@ -6,14 +6,13 @@ export default class Page extends React.Component {
     return (
       <View style={styles.container}>
         <Text style={{fontSize:50}}>PAGE</Text>
-
-
+      <View style={{flexDirection:'row'}}>
         {/* switchers buttons */}
         <Button
           title="Page1"
           onPress={() =>
             this.props.navigation.navigate('Page1')
-          }
+          } 
         />
         <Button
           title="Page2"
@@ -21,12 +20,14 @@ export default class Page extends React.Component {
             this.props.navigation.navigate('Page2')
           }
         />
+        
         <Button
           title="Page3"
           onPress={() =>
             this.props.navigation.navigate('Page3')
           }
         />
+        </View>
       </View>
     );
   }
