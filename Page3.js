@@ -2,6 +2,7 @@ import React from 'react';
 import { StyleSheet, Text, View, Button } from 'react-native';
 
 export default class Page3 extends React.Component {
+
   render() {
     return (
       <View style={styles.container}>
@@ -25,15 +26,6 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
-
-
-
-
-
-
-
-
-
 
 
 
@@ -190,4 +182,4 @@ const styles = StyleSheet.create({
 
 
 
-AppRegistry.registerComponent('AwesomeProject', () => FlatListBasics);
+// AppRegistry.registerComponent('AwesomeProject', () => FlatListBasics);

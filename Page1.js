@@ -22,7 +22,7 @@ export default class Page1 extends React.Component {
                             source={require('./assets/a.png')}
                         />
           <Text style={{ fontSize: 10, color: "purple" }}>
-            home2
+            a text with Touchable capacity
             </Text>
 
           </TouchableOpacity>
@@ -39,12 +39,12 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   image: {
-    // borderWidth: 1,
+    // borderWidth: 1,-
     // backgroundColor:null,
     // alignItems: 'center',
     // justifyContent: 'center',
-    width: 150,
-    height: 150,
+    width: 50,
+    height: 50,
     // backgroundColor: '#20401e',
     // borderRadius: 50,
     // marginTop: 25,

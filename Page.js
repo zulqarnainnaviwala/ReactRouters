@@ -9,20 +9,20 @@ export default class Page extends React.Component {
       <View style={{flexDirection:'row'}}>
         {/* switchers buttons */}
         <Button
-          title="Page1"
+          title="sample page 1"
           onPress={() =>
             this.props.navigation.navigate('Page1')
           } 
         />
         <Button
-          title="Page2"
+          title="sample page 2"
           onPress={() =>
             this.props.navigation.navigate('Page2')
           }
         />
         
         <Button
-          title="Page3"
+          title="Sample Page 3"
           onPress={() =>
             this.props.navigation.navigate('Page3')
           }

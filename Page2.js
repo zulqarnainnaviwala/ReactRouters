@@ -14,7 +14,7 @@ export default class Page2 extends React.Component {
 
         />
         <Button
-          title="page 1 link"
+          title="direct sample page 1"
           onPress={() =>
             this.props.navigation.navigate('Page1')
           }
