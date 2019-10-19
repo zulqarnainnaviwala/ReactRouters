@@ -21,6 +21,7 @@ const MainNavigator = createStackNavigator({
    Page3: 
    {screen: Page3},
 
+   
 }
 // {
 //     headerMode: "none",
